@@ -25,5 +25,5 @@ class Monkey {
 }
 
 func silliest(monkeys: [Monkey]) -> [Monkey] {
-  return monkeys.filter { $0.silliness == .VerySilly }
+  return monkeys.filter { $0.silliness == .VerySilly || $0.silliness == .ExtremelySilly }
 }

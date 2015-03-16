@@ -37,12 +37,6 @@ class MonkeySpec: QuickSpec {
         let jane = Monkey(name: "Jane", silliness: .VerySilly)
         let sillyMonkeys = silliest([kiki, carl, jane])
         expect(sillyMonkeys).to(contain(kiki))
-        
-        /* got message
-            failed - expected to contain <Optional(Testing_With_QuickTests.Monkey)>, got <("Testing_With_QuickTests.Monkey")>
-          expected
-            failed - expected to contain <Monkey(name: Kiki, silliness: ExtremelySilly)>, got <[Monkey(name: Jane, silliness: VerySilly)]>
-        */
       }
       
     }
