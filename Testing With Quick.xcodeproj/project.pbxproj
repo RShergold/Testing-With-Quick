@@ -17,6 +17,9 @@
 		9655A58E1AB35E660052559B /* DolphinSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9655A58D1AB35E660052559B /* DolphinSpec.swift */; };
 		9655A5901AB360C60052559B /* Click.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9655A58F1AB360C60052559B /* Click.swift */; };
 		9655A5911AB3613D0052559B /* Click.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9655A58F1AB360C60052559B /* Click.swift */; };
+		965846F31AB6F73F0036F40F /* Monkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965846F21AB6F73F0036F40F /* Monkey.swift */; };
+		965846FF1AB6FAF90036F40F /* MonkeySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965846FE1AB6FAF90036F40F /* MonkeySpec.swift */; };
+		965847001AB6FB6C0036F40F /* Monkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965846F21AB6F73F0036F40F /* Monkey.swift */; };
 		96A851121AB34CB700620A24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A851111AB34CB700620A24 /* AppDelegate.swift */; };
 		96A851141AB34CB700620A24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A851131AB34CB700620A24 /* ViewController.swift */; };
 		96A851171AB34CB700620A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A851151AB34CB700620A24 /* Main.storyboard */; };
@@ -112,6 +115,8 @@
 		9655A58A1AB35D7A0052559B /* Dolphin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dolphin.swift; sourceTree = "<group>"; };
 		9655A58D1AB35E660052559B /* DolphinSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolphinSpec.swift; sourceTree = "<group>"; };
 		9655A58F1AB360C60052559B /* Click.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Click.swift; sourceTree = "<group>"; };
+		965846F21AB6F73F0036F40F /* Monkey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monkey.swift; sourceTree = "<group>"; };
+		965846FE1AB6FAF90036F40F /* MonkeySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonkeySpec.swift; sourceTree = "<group>"; };
 		96A8510C1AB34CB700620A24 /* Testing With Quick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Testing With Quick.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A851101AB34CB700620A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96A851111AB34CB700620A24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -173,6 +178,7 @@
 				9655A5851AB3516A0052559B /* Banana.swift */,
 				9655A58A1AB35D7A0052559B /* Dolphin.swift */,
 				9655A58F1AB360C60052559B /* Click.swift */,
+				965846F21AB6F73F0036F40F /* Monkey.swift */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -227,6 +233,7 @@
 				96A851251AB34CB700620A24 /* Supporting Files */,
 				9655A5871AB352350052559B /* BananaSpec.swift */,
 				9655A58D1AB35E660052559B /* DolphinSpec.swift */,
+				965846FE1AB6FAF90036F40F /* MonkeySpec.swift */,
 			);
 			path = "Testing With QuickTests";
 			sourceTree = "<group>";
@@ -424,6 +431,7 @@
 			files = (
 				96A851141AB34CB700620A24 /* ViewController.swift in Sources */,
 				9655A5901AB360C60052559B /* Click.swift in Sources */,
+				965846F31AB6F73F0036F40F /* Monkey.swift in Sources */,
 				9655A5861AB3516A0052559B /* Banana.swift in Sources */,
 				9655A58B1AB35D7A0052559B /* Dolphin.swift in Sources */,
 				96A851121AB34CB700620A24 /* AppDelegate.swift in Sources */,
@@ -437,8 +445,10 @@
 				9655A5881AB352350052559B /* BananaSpec.swift in Sources */,
 				9655A5911AB3613D0052559B /* Click.swift in Sources */,
 				9655A58E1AB35E660052559B /* DolphinSpec.swift in Sources */,
+				965846FF1AB6FAF90036F40F /* MonkeySpec.swift in Sources */,
 				9655A5891AB352DC0052559B /* Banana.swift in Sources */,
 				9655A58C1AB35E590052559B /* Dolphin.swift in Sources */,
+				965847001AB6FB6C0036F40F /* Monkey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
