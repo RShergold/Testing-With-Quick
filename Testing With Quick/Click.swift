@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+class Click {
+  
+  var isLoud = true
+  var hasHighFrequency = true
+  
+}

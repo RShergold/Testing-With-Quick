@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+class Dolphin {
+  
+  let isFriendly = true
+  let isSmart = true
+  
+  func click() -> Click {
+    return Click()
+  }
+  
+}

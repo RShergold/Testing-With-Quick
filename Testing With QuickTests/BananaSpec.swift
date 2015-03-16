@@ -6,31 +6,26 @@
 //  Copyright (c) 2015 Hatch. All rights reserved.
 //
 
-import UIKit
-import XCTest
+import Quick
+import Nimble
 
-class BananaTests: XCTestCase {
 
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+class BananaSpec: QuickSpec {
+  override func spec() {
+    describe("a Banana") {
+      
+      it("should be edible only after peeling") {
+        // Arrange: Create the banana we'll be peeling.
+        let banana = Banana()
+        
+        // Act: Peel the banana.
+        banana.peel()
+        
+        // Assert: Verify that the banana is now edible.
+        expect(banana.isEdible).to(beTruthy())
+      }
+      
+      
     }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock() {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
+  }
 }
